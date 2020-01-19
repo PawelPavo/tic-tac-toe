@@ -78,7 +78,7 @@ function cellClicked(e) {
         cells[1].textContent === 'X' &&
         cells[4].textContent === 'X' &&
         cells[7].textContent === 'X') {
-        gameOver == true
+        gameOver = true
         Swal.fire({
             icon: 'success',
             title: 'X is the winner!',
@@ -87,7 +87,7 @@ function cellClicked(e) {
         cells[0].textContent === 'X' &&
         cells[4].textContent === 'X' &&
         cells[8].textContent === 'X') {
-        gameOver == true
+        gameOver = true
         Swal.fire({
             icon: 'success',
             title: 'X is the winner!',
@@ -96,7 +96,7 @@ function cellClicked(e) {
         cells[2].textContent === 'X' &&
         cells[4].textContent === 'X' &&
         cells[6].textContent === 'X') {
-        gameOver == true
+        gameOver = true
         Swal.fire({
             icon: 'success',
             title: 'X is the winner!',
@@ -104,7 +104,7 @@ function cellClicked(e) {
     } else if (cells[0].textContent === 'O' &&
         cells[1].textContent === 'O' &&
         cells[2].textContent === 'O') {
-        gameOver == true
+        gameOver = true
         Swal.fire({
             icon: 'success',
             title: 'O is the winner!',
